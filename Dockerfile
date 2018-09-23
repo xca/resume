@@ -2,11 +2,11 @@ FROM node:8-alpine
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache bash git openssh
-EXPOSE 3089
+EXPOSE 3090
 WORKDIR /home/node
 COPY --chown=node:node . .
 USER node:node
-ENV PORT=3089 NODE_ENV=production
+ENV PORT=3090 NODE_ENV=production
 RUN mkdir dist && \
     git submodule init && \
     git submodule update && \
