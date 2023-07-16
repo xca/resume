@@ -469,19 +469,22 @@ h2 {
 }
 
 #skills,
-#languages {
+#languages,
+#Certification {
   margin-top: 1em;
   line-height: 1.5;
 }
 
 #skills ul,
-#languages ul {
+#languages ul,
+#Certification ul {
   margin: 0.05in 0 0.15in;
   padding: 0;
 }
 
 #languages .material-icons,
-#skills .material-icons {
+#skills .material-icons,
+#Certification .material-icons {
   font-size: 15pt;
 }
 
